@@ -16,7 +16,7 @@ int dice2 = (rand() % 6)+1;
 printf("Die 1: %d\n",dice1);
 printf("Die 2: %d\n",dice2);
 printf("Total value; %d\n",dice1+dice2);
-  if((daice1+dice2) >= 8){
+  if((dice1+dice2) >= 8){
     printf("%s won\n",name);
   } else{
     printf("%s lost\n",name);
